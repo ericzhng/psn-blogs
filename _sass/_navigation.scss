@@ -10,13 +10,13 @@
     display: inline-block;
     width: 100%;
     vertical-align: top;
-    margin: 0 0 50px;
-    padding: 4px 20px;
-    background-color: $black;
+    margin: 0 0 30px;
+    padding: 5px 20px;
+    background-color: $top-color;
 
     @include media($medium) {
       width: auto;
-      @include rounded(0 0 10px 10px);
+      @include rounded(0px 0px 15px 15px);
     }
 
     @include clearfix;
@@ -27,12 +27,12 @@
     float: left;
     list-style: none;
     text-align: center;
-    @include font-size(24,no);
+    @include font-size(20,no);
     text-transform: uppercase;
     color: $white;
 
     @include media($medium) {
-      @include font-size(14,no);
+      @include font-size(20,no);
     }
 
     a:hover {
@@ -50,11 +50,11 @@
       padding: 6px 10px;
     }
 
-    color: $white;
-    @include rounded(4px);
+    color: $top-font-color;
+    @include rounded(2px);
 
     &:hover {
-      background-color: lighten($black, 10);
+      background-color: lighten($top-hover-color, 0);
     }
   }
 }
@@ -108,7 +108,7 @@
   padding: 6px 20px;
   background-color: $black;
   height: 44px;
-  @include rounded(0);
+  @include rounded(2px);
 
   @include media($medium) {
     display: none;
