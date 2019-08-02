@@ -9,10 +9,12 @@
   font-family: $alt-font;
   @include font-size(14);
   font-style: italic;
-  color: lighten($text-color,30);
+  //color: lighten($text-color,30);
+  color: #000;
 
   a {
-    color: lighten($text-color,20);
+    //color: lighten($text-color,20);
+	color: #003E78;
   }
 }
 
