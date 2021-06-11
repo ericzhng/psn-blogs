@@ -6,7 +6,7 @@ categories: blog
 excerpt:
 tags: [Windows, WSL]
 image:
-  feature: wsl/wsl.png
+  feature: wsl-cygwin-mingw/wsl.png
 date: 2018-09-14
 comments: true
 share: true

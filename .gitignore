@@ -8,3 +8,4 @@ codekit-config.json
 Gemfile.lock
 node_modules
 to-delete
+.jekyll-cache

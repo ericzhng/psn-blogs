@@ -203,10 +203,10 @@ Please refer to my post titled "Setup Linux environment (WSL) in Windows" for mo
 
 Sometimes after you specified everything above, you might come to some errors shown below:
 
-- ![image missing](pycharm/error.png) **Commands not found!**
+- ![image missing](/psn-blogs/images/pycharm/error.png) **Commands not found!**
   * **Reason**: When running the build or run, you are executing in **Windows command prompt**, which doesn't have a compiler installed. The **gcc** compiler is installed in Linux subsystem, so you should refer to **bash** to run the build command.
   * **Solution**: 
-    * Open settings in vs-code, using the keyboard shortcut `CTRL+,`, or File → Preferences → Settings. 
+    * Open settings in vs-code, using the keyboard shortcut `CTRL+,`, or File → Preferences → Settings.
     * Search for `terminal.integrated.shell.windows`, use your bash.exe path to substitute the original exe path.
     * For me, it is `C:\Windows\WinSxS\amd64_microsoft-windows-lxss-bash_31bf3856ad364e35_10.0.17134.1_none_251beae725bc7de5/bash.exe`. 
     * Then re-run your code, using shortcut **CTRL+SHIFT+B**, you should have the compiler running in WSL bash now.

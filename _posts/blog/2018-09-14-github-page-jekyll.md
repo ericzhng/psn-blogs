@@ -15,7 +15,6 @@ In this blog, I want to talk about how to set up Jekyll in Windows 10 and genera
 
 <!--more-->
 
-
 ## 1. Set up Linux subsystem in Windows 10
 * Please refer to my post titled "Setup Linux environment (WSL) in Windows" to setup WSL in Windows 10.
 

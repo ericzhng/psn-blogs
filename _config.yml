@@ -4,6 +4,8 @@ title: _PSN_ HOMEPAGE
 locale: en_US
 description: _PSN_ focuses on providing program solutions.
 logo: psn-logo.png
+# the subpath of your site, e.g. /blog/. to use locally, specify nothing, to host, use actual url.
+# url:
 url: https://ericzhng.github.io/psn-blogs
 
 # Jekyll configuration
